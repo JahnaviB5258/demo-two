@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdf6f0;
+    }
+
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .menu-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 250px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .menu-content {
+      padding: 15px;
+    }
+
+    .menu-content h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .price {
+      color: #e67e22;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍽️ Food Menu</h1>
+    <p>Delicious dishes served fresh!</p>
+  </header>
+
+  <div class="menu-container">
+    <!-- Menu Item 1 -->
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/250x160/?pizza" alt="Pizza">
+      <div class="menu-content">
+        <h3>Cheese Pizza</h3>
+        <p class="price">₹150</p>
+        <p class="description">Hot & cheesy pizza with tomato sauce and mozzarella.</p>
+      </div>
+    </div>
+
+    <!-- Menu Item 2 -->
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/250x160/?burger" alt="Burger">
+      <div class="menu-content">
+        <h3>Veg Burger</h3>
+        <p class="price">₹80</p>
+        <p class="description">Crispy patty, fresh veggies, and mayo in a soft bun.</p>
+      </div>
+    </div>
+
+    <!-- Menu Item 3 -->
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/250x160/?pasta" alt="Pasta">
+      <div class="menu-content">
+        <h3>White Sauce Pasta</h3>
+        <p class="price">₹120</p>
+        <p class="description">Creamy and cheesy pasta with herbs and vegetables.</p>
+      </div>
+    </div>
+
+    <!-- Menu Item 4 -->
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/250x160/?icecream" alt="Ice Cream">
+      <div class="menu-content">
+        <h3>Vanilla Ice Cream</h3>
+        <p class="price">₹60</p>
+        <p class="description">Classic vanilla flavor, served chilled and creamy.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
