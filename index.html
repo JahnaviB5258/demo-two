@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+    }
+
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .menu-item {
+      background: white;
+      border: 2px solid #f2f2f2;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-item h3 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .price {
+      color: #e67e22;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍴 Our Food Menu</h1>
+    <p>Fresh. Delicious. Affordable.</p>
+  </header>
+
+  <div class="menu-container">
+    <div class="menu-item">
+      <h3>Cheese Pizza</h3>
+      <p class="price">₹150</p>
+      <p class="description">Hot and cheesy pizza with tomato sauce and mozzarella.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Veg Burger</h3>
+      <p class="price">₹80</p>
+      <p class="description">Crispy veggie patty with lettuce, tomato, and mayo.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>White Sauce Pasta</h3>
+      <p class="price">₹120</p>
+      <p class="description">Creamy pasta with garlic, herbs, and cheese.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>French Fries</h3>
+      <p class="price">₹60</p>
+      <p class="description">Golden and crispy fries served with ketchup.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Cold Coffee</h3>
+      <p class="price">₹50</p>
+      <p class="description">Chilled coffee with milk and ice cream on top.</p>
+    </div>
+  </div>
+
+</body>
+</html>
